@@ -1,0 +1,24 @@
+{
+  "name": "chatapp_socketio_nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mandillahjr2/chatApp_socketio_NodeJS.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mandillahjr2/chatApp_socketio_NodeJS/issues"
+  },
+  "homepage": "https://github.com/mandillahjr2/chatApp_socketio_NodeJS#readme",
+  
+  "dependencies": {
+    "socket.io-client": "^4.6.0"
+  }
+}

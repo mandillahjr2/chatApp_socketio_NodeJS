@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>mandigram</title>
+    <link rel="stylesheet" href="./style.css" />
+    <script
+      src="https://cdn.socket.io/4.5.4/socket.io.min.js"
+      integrity="sha384-/KNQL8Nu5gCHLqwqfQjA689Hhoqgi2S84SNUxC3roTe4EhJ9AfLkp8QiQcU8AMzI"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./app.js"></script>
+  </head>
+
+  <body>
+    <ul id="messages"></ul>
+    <div>
+      <input id="m" autocomplete="off" />
+      <button onclick="send()">Send</button>
+    </div>
+  </body>
+</html>
