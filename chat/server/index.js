@@ -14,7 +14,8 @@ io.on('connection',(socket)=>{
     console.log("New Client Connected !")
     socket.broadcast.emit("new user notification","hm")
     socket.on("disconnect",(socket)=>{
-        console.log("Disconnected")
+        console.log(" Disconnected")
+        // socket.broadcast.emit("")
     })
     socket.on("chat message",(msg)=>{
         io.emit("chat message",socket.id+": "+msg)
