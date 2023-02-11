@@ -9,7 +9,6 @@ socket.on("chat message",(msg)=>{
     const para=document.createElement('p');
     para.innerText=msg;
     document.getElementById("messages").appendChild(para);
-
 })
 
 socket.on("new user notification",()=>{
